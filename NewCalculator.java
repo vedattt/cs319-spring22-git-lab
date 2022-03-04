@@ -24,7 +24,7 @@ public class NewCalculator {
             System.err.println("Attempted to divide by zero");
             return 0;
         }
-        this.lastResult = dividend % divisor;
+        this.lastResult = dividend / divisor;
         return this.lastResult;
     }
     
